@@ -7,13 +7,13 @@ const root = ReactDOM.createRoot(
 );
 
 const DataFilm = {
-  name:'Game of Thrones',
-  genre:'fantasic',
-  date:2008,
+  name: 'Game of Thrones',
+  genre: 'fantasic',
+  date: 2008,
 };
 
 root.render(
   <React.StrictMode>
-   <App FilmInfo={DataFilm}/>
+    <App FilmInfo={DataFilm} />
   </React.StrictMode>
 );

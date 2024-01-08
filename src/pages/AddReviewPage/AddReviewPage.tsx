@@ -1,9 +1,8 @@
 export default function AddReviewPage() {
-    return (
-        <>
-         <section className="film-card film-card--full">
+  return (
+    <section className="film-card film-card--full">
       <div className="film-card__header">
-         <div className="film-card__bg">
+        <div className="film-card__bg">
           <img src="img/bg-the-grand-budapest-hotel.jpg" alt="The Grand Budapest Hotel" />
         </div>
 
@@ -93,6 +92,5 @@ export default function AddReviewPage() {
       </div>
 
     </section>
-        </>
-    )
-};
+  );
+}
